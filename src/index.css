@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+	align-items: center;
+}
+
+.form{
+	padding: 5px;
+	border: 2px solid red;
+	width: 550px;
+	height: max-content;
+	margin:15px auto;
+	border-radius: 1.5rem;
+}
+
+input{
+	display: flex;
+	border: 3px solid green;
+	flex-direction: row;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	/* width: 120px; */
+	height: 50px;
+	width: 250px;
+	
+}
+label{
+	align-items:center;
+}
